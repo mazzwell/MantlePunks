@@ -1,0 +1,1 @@
+import{ar as e}from"./index-e9dc9249.js";function i(r){const t=new URL(r).hostname;return t.endsWith(".thirdweb.com")||t==="localhost"||t==="0.0.0.0"}function o(r){return e(r).map(t=>{try{const n=new URL(t);return n.hostname.endsWith(".thirdweb.com")&&(n.pathname="",n.search=""),n.toString()}catch{return t}})}export{o as g,i};
